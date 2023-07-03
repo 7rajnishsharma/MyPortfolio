@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajnish's Portfolio</title>
+    <link rel="icon" href="img/icon.png" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"/>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  </head>
+
+  <body>
+    <!-- go to top btn  -->
+    <button type="button"class="button btn-danger btn-floating btn-lg"id="btn-back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="mailto:kumar.rajnish1april@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Rajnish Kumar Sharma</h1>
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/rjnish/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/7rajnishsharma" target="_blank"
+              ><i class="fa-brands fa-github" ></i
+            ></a>
+            <a href="https://www.instagram.com/7rajnishsharma/" target="_blank"
+              ><i class="fa-brands fa-instagram" target="_blank"></i
+            ></a>
+            <a href="mailto:kumar.rajnish1april@gmail.com"
+              ><i class="fa-regular fa-envelope" target="_blank"></i
+            ></a>
+          </div>
+          <a href="mailto:kumar.rajnish1april@gmail.com" class="btn" target="_blank">HIRE ME</a>
+          
+        </div>
+      </div>
+    </header>
+    <!--=====================================================-->
+
+    <!--==================+=About section=+===================-->
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="img/Rajnish.jpeg" alt="" class="wave-img"/>
+      </div>
+
+      <div class="about-content">
+        <h3>About Me</h3>
+        <p>
+          My name is Rajnish Kumar Sharma, and I am a dedicated full stack
+          developer currently in my 3rd year of studying Computer Science at MDU
+          University. Passionate about coding, I specialize in creating robust
+          and user-centric applications that enhance the digital experience.
+          With a strong foundation in both front-end and back-end technologies,
+          I strive to deliver efficient and elegant solutions.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+    <!--=====================================================-->
+
+    <!--==================+=services section=+===================-->
+    <section class="services" id="services">
+      <h2 class="heading">My services</h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <img src="img/front-end.png" alt="" />
+          <h3>Frontend</h3>
+          <p>
+            I'm a front-end developer who specialises in designing intuitive
+            user interfaces. I create aesthetically pleasing and dynamic
+            websites by utilising frameworks like React and Angular as well as
+            technologies like HTML, CSS, and JavaScript.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <img src="img/backend.png" alt="" />
+          <h3>Backend</h3>
+          <p>
+            Backend developer with expertise in designing and developing
+            scalable APIs. Ensures smooth communication between frontend and
+            backend, resulting in intuitive and efficient user experiences.
+            Dedicated to delivering high-quality backend solutions that enhance
+            the performance and functionality of web applications.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <img src="img/coding.png" alt="" />
+          <h3>Software</h3>
+          <p>I can provide you with a software service that offers innovative solutions tailored to your business needs. From custom software development to system integration and support, I can deliver reliable and scalable software solutions to empower your organization for success in the digital age.</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!--=====================================================-->
+
+    <!--==================+=Skill section=+===================-->
+    <section id="skills" class="skills">
+      <h1 class="heading">Skills</h1>
+
+      <div class="skill-logos">
+        <img src="img/python.png" alt="" />
+        <img src="img/c.png" alt="" />
+        <img src="img/c++.png" alt="" />
+        <img src="img/java.png" alt="" />
+        <img src="img/html.png" alt="" />
+        <img src="img/css.png" alt="" />
+        <img src="img/js.png" alt="" />
+        <img src="img/sql.png" alt="" />
+        <img src="img/php.png" alt="" />
+        <img src="img/bootstrap.png" alt="" />
+        <img src="img/react.png" alt="" />
+        <img src="img/node.png" alt="" />
+        <img src="img/git.png" alt="" />
+        <img src="img/figma.png" alt="" />
+        <img src="img/adobe.png" alt="" class="adobe" />
+      </div>
+    </section>
+    <hr />
+    <!--=====================================================-->
+
+    <!--==================+=Project section=+===================-->
+    <section class="project" id="project">
+      <h1 class="heading">Projects</h1>
+      <div class="wrapper">
+        <div class="carousel owl-carousel">
+          <div class="card card-1">
+            <div class="card-img">
+              <img src="img/qr.gif" alt="" />
+            </div>
+            <h3>QR Generator</h3>
+            <p>This website is a convenient tool for generating QR codes instantly, allowing users to encode information and easily share it with others.</p>
+            <a href="https://7rajnishsharma.github.io/QR_generator/"
+              class="btn" target="_blank"><i class="fa-brands fa-github"></i> View More</a>
+          </div>
+          <div class="card card-2">
+            <div class="card-img">
+              <img src="img/gym.png" alt="" />
+            </div>
+            <h3>FitZone</h3>
+            <p>FitZone offers diverse fitness classes like Yoga, Gymnastics, Pilates, Zumba, and Strength Training, catering to a wide range of preferences and goals for fitness enthusiasts.</p>
+            <a href="https://7rajnishsharma.github.io/FitZone/" target="_blank" class="btn"><i class="fa-brands fa-github" ></i> View More</a>
+          </div>
+          <div class="card card-3">
+            <div class="card-img">
+              <img src="img/weather-app.png" alt="" />
+            </div>
+            <h3>Weather App</h3>
+            <p>The WeatherApp is a user-friendly application that provides real-time weather updates and forecasts, ensuring you stay prepared for any conditions.</p>
+            <a href="https://github.com/7rajnishsharma/WeatherApp"class="btn"target="_blank"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
+          </div>
+          <div class="card card-4">
+            <div class="card-img">
+              <img src="img/docsy_animation.gif" alt="" />
+            </div>
+            <h3>Docsy</h3>
+            <p>Medical website for finding hospitals, doctors, booking online appointments, and accessing informative articles on diverse diseases, all in one place.</p>
+            <a href="https://7rajnishsharma.github.io/Doscy/"class="btn"target="_blank"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
+          </div>
+          <div class="card card-5">
+            <div class="card-img">
+              <img src="img/spotify.gif" alt="" />
+            </div>
+            <h3>Spotify Clone</h3>
+            <p>This project replicates the frontend of Spotify, offering users a familiar and immersive music streaming experience with a visually appealing interface.</p>
+            <a
+              href="https://7rajnishsharma.github.io/Spotify-clone/" target="_blank"class="btn"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!--=====================================================-->
+
+    <!--==================+=Contact section=+=================-->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-1 box">
+          <h2>Get in touch</h2>
+          <p>
+            <span class="highlight">Thank you for visiting!</span> Let's connect and discuss potential projects with my expertise and skills, I can contribute to achieving remarkable results. I'm excited to explore the possibilities together.
+          </p>
+          <p><i class="fa-solid fa-location-dot"></i> New Delhi,India</p>
+
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rjnish/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/7rajnishsharma" target="_blank"
+              ><i class="fa-brands fa-github" target="_blank"></i
+            ></a>
+            <a href="https://www.instagram.com/7rajnishsharma/" target="_blank"
+              ><i class="fa-brands fa-instagram" target="_blank"></i
+            ></a>
+            <a href="mailto:kumar.rajnish1april@gmail.com"
+              ><i class="fa-regular fa-envelope" target="_blank"></i
+            ></a>
+          </div>
+          <a href="https://drive.google.com/drive/folders/15D9Evpg6Dvub2Y7uHD0AEPVrVCrEUx9W?usp=drive_link" class="btn" target="_blank">View Resume</a>
+        </div>
+        <div class="contact-2 box">
+          <img src="img/developer.gif" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--=====================================================-->
+
+    <!--=====================+=Footer=+======================-->
+    <footer>
+      <p>Created by <span>Rajnish Kumar Sharma</span> | &#169; All rights reserved.</p>
+    </footer>
+
+    <!--=====================================================-->
+    <!-- typing animation -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
