@@ -1,271 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rajnish's Portfolio</title>
-    <link rel="icon" href="assets/img/icon.png" />
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"/>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/icon.png" />
+  <title>Rajnish Kumar Sharma | Full-Stack Developer Portfolio</title>
+  <meta name="description" content="Explore the portfolio of Rajnish Kumar Sharma, a full-stack developer skilled in JavaScript, React, Node.js, and UI/UX design. Check out my projects and skills.">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    
-  </head>
+  <!-- Twitter Card Tags for Twitter Sharing -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rajnish Kumar Sharma | Full-Stack Developer Portfolio">
+  <meta name="twitter:description" content="Explore my web development projects, from JavaScript and Node.js to UI/UX design.">
+  <!-- Primary Keywords -->
+  <meta name="keywords" content="Full-Stack Developer, JavaScript, React, Node.js, UI/UX Designer, Web Developer, Portfolio, Software Engineer, SEO-Optimized Portfolio">
+  
+  <!-- Author Meta Tag -->
+  <meta name="author" content="Rajnish Kumar Sharma">
+  <!-- Open Graph (OG) Tags for Social Media Sharing -->
+  <meta property="og:title" content="Rajnish Kumar Sharma | Full-Stack Developer Portfolio">
+  <meta property="og:description" content="Portfolio of Rajnish Kumar Sharma showcasing expertise in full-stack development, UI/UX design, and real-time web solutions.">
 
-  <body>
-    <!-- go to top btn  -->
-    <button type="button"class="button btn-danger btn-floating btn-lg"id="btn-back-to-top"><i class="fas fa-arrow-up"></i></button>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+   <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/">
+          <img src="assets/img/logo.png" alt="Rajnish">
+        </a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars" id="icon"></i>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+   </header>
+  
 
-    <header>
-      <nav>
-        <div class="logo">
-          <img src="assets/img/logo3.png" alt="" />
+  <section id="home" class="home">
+    <div class="header-content home-card">
+      <div class="content">
+        <h3>Hello, I'm Rajnish</h3>
+        <h2 class="main-heading">Full-Stack Web Developer & Software Engineer</h2>
+        <p>I specialize in building high-performance web applications, crafting innovative solutions to solve complex challenges and enhance user experience.</p>
+       </div>
+      <div class="header-icon">
+        <div class="resume btn">
+          <a href="https://drive.google.com/drive/u/0/folders/15D9Evpg6Dvub2Y7uHD0AEPVrVCrEUx9W"  class="">Download Resume</a>
         </div>
-        <i class="fas fa-bars" id="ham-menu"></i>
-        <ul id="nav-bar">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="mailto:kumar.rajnish1april@gmail.com">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="home">
-        <div class="home-content">
-          <h3>Hello, It's Me</h3>
-          <h1>Rajnish Kumar Sharma</h1>
-          <h3>And I'm a <span class="multiple-text"></span></h3>
-          <div class="social-media">
-            <a href="https://www.linkedin.com/in/rjnish/" target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://github.com/7rajnishsharma" target="_blank"
-              ><i class="fa-brands fa-github" ></i
-            ></a>
-            <a href="https://www.instagram.com/7rajnishsharma/" target="_blank"
-              ><i class="fa-brands fa-instagram" target="_blank"></i
-            ></a>
-            <a href="mailto:kumar.rajnish1april@gmail.com"
-              ><i class="fa-regular fa-envelope" target="_blank"></i
-            ></a>
-          </div>
-          <a href="mailto:kumar.rajnish1april@gmail.com" class="btn" target="_blank">HIRE ME</a>
-          
+        <div class="socials">
+          <a href="https://github.com/7rajnishsharma" ><i class="btn fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rjnish/" ><i class="btn fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/7rajnishsharma/" ><i class="btn fa-brands fa-instagram"></i></a>
+          <a href="mailto:Kumar.rajnish1april@gmail.com" ><i class="btn fa-regular fa-envelope"></i></a>
         </div>
       </div>
-    </header>
+    </div>
+    <div class="header-image home-card">
+      <img src="assets/img/home.png" alt="">
+    </div>
     
-    <!--=====================================================-->
+  </section>
+  
 
-    <!--==================+=About section=+===================-->
-    
-    <section id="about" class="about">
-      <div class="about-img">
-        <img src="assets/img/Rajnish.jpeg" alt="" class="wave-img"/>
+  <section class="services" id="service">
+    <h1 class="section-heading main-heading">Services Tailored for Your Needs</h1>
+    <div class="services-container">
+      <!-- Service 1: Frontend Development -->
+      <div class="services-box card">
+        <img src="assets/img/frontend.png" alt="Frontend Development" class="service-img">
+        <h2>Frontend Development</h2>
+        <p>I create responsive and interactive websites using HTML, CSS, and JavaScript frameworks like React.</p>
       </div>
 
-      <div class="about-content">
-        <h3>About Me</h3>
-        <p>
-          I am <span>Rajnish Kumar Sharma</span>, a third-year Computer Science student at MDU with a passion for full-stack development. I am proficient in web development, databases and DSA. I am skilled in developing efficient and user-friendly web applications. I am also a problem-solving enthusiast who is always looking for innovative ways to use programming. I am eager to learn and grow, and I am excited to contribute to the field of software engineering.
-        </p>
+      <!-- Service 2: Backend Development -->
+      <div class="services-box .services-box-2 card">
+        <img src="assets/img/backend.png" alt="Backend Development" class="service-img">
+        <h2>Backend Development</h2>
+        <p>Building robust backends using Node.js, Express, and managing databases like MongoDB and SQL.</p>
       </div>
-    </section>
 
-    <hr />
-    <!--=====================================================-->
+      <!-- Service 3: UI/UX Design -->
+      <div class="services-box card">
+        <img src="assets/img/ui-ux.png" alt="UI/UX Design" class="service-img">
+        <h2>UI/UX Design</h2>
+        <p>Crafting user-friendly and visually appealing interfaces with a focus on user experience.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills">
+    <h1 class="section-heading main-heading">My Core Skills.</h1>
+    <div class="skills-icon">
+      <div class="icon card"><img loading="lazy" src="assets/icon/html.svg" alt="Html"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/css.svg" alt="css"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/bootstrap.svg" alt="bootstrap"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/tailwind.svg" alt="Tailwind"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/js.svg" alt="JavaScript"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/node.svg" alt="node js"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/react.svg" alt="react js"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/nextjs.svg" alt="Next js"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/mogo.svg" alt="Mongo DB"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/mysql.svg" alt="My sql"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/firebase.svg" alt="My sql"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/python.svg" alt="Skill 8"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/c.svg" alt="C"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/cpp.svg" alt="C++"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/java.svg" alt="Java"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/git.svg" alt="Git"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/github.svg" alt="github"></div>
+      <div class="icon card"><img loading="lazy" src="assets/icon/figma.svg" alt="figma"></div>
+    </div>
+  </section>
 
-    <!--==================+=services section=+===================-->
-    <section class="services" id="services">
-      <h2 class="heading">My services</h2>
+  <section id="projects">
+    <h1 class="section-heading main-heading">Showcasing My Expertise</h1>
+    <p class="section-subheading">Explore projects showcasing my skills in full-stack development, design, and problem-solving.</p>
 
-      <div class="services-container">
-        <div class="services-box">
-          <img src="assets/img/front-end.png" alt="" />
-          <h3>Frontend</h3>
+    <div class="project-container">
+
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/doctor.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>Doctor Appointment</h3>
+          <p>A website enabling users to book doctor appointments, view schedules, and manage their bookings. <br> <b>Tech Stack:</b> React JS with Tailwind CSS, Node.js backend, and MongoDB for data storage.</p>
+          <a href="https://github.com/7rajnishsharma/BookMyDoc"  class="btn">View more</a>
+        </div>
+      </div>
+
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/pyq.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>PyQBazar</h3>
           <p>
-            I specialize in crafting intuitive user interfaces for frontend web applications. I create dynamic and static websites using React, HTML, CSS, and JavaScript to deliver aesthetically pleasing and user-friendly experiences.
-          </p>
-        </div>
-
-        <div class="services-box services-box-2">
-          <img src="assets/img/backend.png" alt="" />
-          <h3>Backend</h3>
-          <p>
-            I specialize in building robust backend web applications using Node.js and Express. I create efficient server-side solutions, ensuring seamless data handling and optimal performance for web applications.
-          </p>
-        </div>
-
-        <div class="services-box ">
-          <img src="assets/img/coding.png" alt="" />
-          <h3>Software</h3>
-          <p>I provide software services, leveraging my expertise to develop scalable and efficient solutions. With a focus on quality and innovation, I deliver tailored software solutions to meet your specific needs.</p>
+            A web application providing centralized access to previous year question papers for all branches of my college.
+            <br><b>Tech Stack:</b> React JS for the frontend with Bootstrap for styling, and Firebase for data storage.</p>
+          <a href="https://github.com/7rajnishsharma/pyqbazar"  class="btn">View more</a>
         </div>
       </div>
-    </section>
 
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/book.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>Book Review Website</h3>
+          <p> A platform where users submit, rate, and browse reviews for various books. <br> <b>Tech Stack:</b> Node.js backend, MongoDB database and HTML/CSS for the user interface..</p>
+          <a href="https://github.com/7rajnishsharma/book-review"  class="btn">View more</a>
+        </div>
+      </div>
+
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/link.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>URL Shrinker</h3>
+          <p>A tool that shortens long URLs into compact, shareable links with seamless redirection functionality. <br>
+          <b>Tech Stack:</b> Node.js for backend, MongoDB for URL storage, HTML/CSS for frontend.</p>
+          <a href="https://github.com/7rajnishsharma/URLShrinker"  class="btn">View more</a>
+        </div>
+      </div>
+
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/blog.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>Blog Web</h3>
+          <p>A blogging platform allowing users to create, publish posts, and engage through comments. <br> <b>Tech Stack:</b> Node.js backend, MongoDB for post storage, HTML/CSS for frontend, user authentication system.</p>
+          <a href="https://github.com/7rajnishsharma/blog-web"  class="btn">View more</a>
+        </div>
+      </div>
+      
+      <div class="project-card card">
+        <div class="project-img">
+          <img loading="lazy" src="assets/projects/meet.png" alt="">
+        </div>
+        <div class="project-dis">
+          <h3>TeamChat</h3>
+          <p>A chat platform enabling real-time messaging and collaboration across multiple rooms or channels. <br> <b>Tech Stack:</b> Node.js backend, Socket.io for real-time chat, MongoDB database, HTML/CSS for the frontend</p>
+          <a href="https://github.com/7rajnishsharma/TeamChat"  class="btn">View more</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  
+  <section id="contact">
+    <div class="contact-box">
+      <p class="contact-heding main-heading">Ready to Bring Your Ideas to Life</p>
+      <p class="contact-des">Let's collaborate to build reliable, scalable, and innovative web solutions. Available for freelance projects and full-time opportunities.</p></p>
+
+      <div class="mail">
+        <p><a href="mailto:Kumar.rajnish1april@gmail.com">Kumar.rajnish1april@gmail.com</a></p>
+        <a href="mailto:Kumar.rajnish1april@gmail.com" class="btn">Let's Work Together</a>
+      </div>
+    </div>
     
-    <!--=====================================================-->
+  </section>
 
-    <!--==================+=Skill section=+===================-->
+  <footer>
+    <div class="footer">
+      <p>Made with love by <span>Rajnish</span></p>
+    </div>
+  </footer>
 
-    <section id="skills" class="skills">
-      <h1 class="heading">Skills</h1>
-
-      <div class="skill-logos">
-        <img src="assets/img/python.png" alt="" />
-        <img src="assets/img/c.png" alt="" />
-        <img src="assets/img/c++.png" alt="" />
-        <img src="assets/img/java.png" alt="" />
-        <img src="assets/img/html.png" alt="" />
-        <img src="assets/img/css.png" alt="" />
-        <img src="assets/img/js.png" alt="" />
-        <img src="assets/img/sql.png" alt="" />
-        <img src="assets/img/php.png" alt="" />
-        <img src="assets/img/bootstrap.png" alt="" />
-        <img src="assets/img/react.png" alt="" />
-        <img src="assets/img/node.png" alt="" />
-        <img src="assets/img/git.png" alt="" />
-        <img src="assets/img/figma.png" alt="" />
-        <img src="assets/img/adobe.png" alt="" class="adobe" />
-      </div>
-
-    </section>
-    <div class="a"><svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 150" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(48, 53, 74, 0.481)" offset="0%"></stop><stop stop-color="rgba(48, 53, 74, 0.481)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,105L48,97.5C96,90,192,75,288,65C384,55,480,50,576,55C672,60,768,75,864,87.5C960,100,1056,110,1152,97.5C1248,85,1344,50,1440,50C1536,50,1632,85,1728,102.5C1824,120,1920,120,2016,112.5C2112,105,2208,90,2304,70C2400,50,2496,25,2592,30C2688,35,2784,70,2880,90C2976,110,3072,115,3168,110C3264,105,3360,90,3456,90C3552,90,3648,105,3744,110C3840,115,3936,110,4032,105C4128,100,4224,95,4320,82.5C4416,70,4512,50,4608,55C4704,60,4800,90,4896,100C4992,110,5088,100,5184,85C5280,70,5376,50,5472,45C5568,40,5664,50,5760,57.5C5856,65,5952,70,6048,72.5C6144,75,6240,75,6336,82.5C6432,90,6528,105,6624,97.5C6720,90,6816,60,6864,45L6912,30L6912,150L6864,150C6816,150,6720,150,6624,150C6528,150,6432,150,6336,150C6240,150,6144,150,6048,150C5952,150,5856,150,5760,150C5664,150,5568,150,5472,150C5376,150,5280,150,5184,150C5088,150,4992,150,4896,150C4800,150,4704,150,4608,150C4512,150,4416,150,4320,150C4224,150,4128,150,4032,150C3936,150,3840,150,3744,150C3648,150,3552,150,3456,150C3360,150,3264,150,3168,150C3072,150,2976,150,2880,150C2784,150,2688,150,2592,150C2496,150,2400,150,2304,150C2208,150,2112,150,2016,150C1920,150,1824,150,1728,150C1632,150,1536,150,1440,150C1344,150,1248,150,1152,150C1056,150,960,150,864,150C768,150,672,150,576,150C480,150,384,150,288,150C192,150,96,150,48,150L0,150Z"></path></svg></div>
-    
-    <!-- <hr /> -->
-    <!--=====================================================-->
-
-    <!--==================+=Project section=+===================-->
-    <section class="project" id="project">
-      <h1 class="heading">Projects</h1>
-      <div class="wrapper">
-        <div class="carousel owl-carousel">
-          <div class="card card-1">
-            <div class="card-img">
-              <img src="assets/img/qr.png" alt="" />
-            </div>
-            <h3>QR Generator</h3>
-            <p>This website is a convenient tool for generating QR codes instantly, allowing users to encode information and easily share it with others.</p>
-            <a href="https://7rajnishsharma.github.io/QR_generator/"
-              class="btn" target="_blank"><i class="fa-brands fa-github"></i> View More</a>
-          </div>
-          <div class="card card-2">
-            <div class="card-img">
-              <img src="assets/img/blog.png" alt="" />
-            </div>
-            <h3>Blog Web</h3>
-            <p>Web app for reading, posting, editing, and deleting blogs. Built with HTML, CSS, JavaScript, Node.js, Express.js, and Firebase for the database. </p>
-            <a href="https://github.com/7rajnishsharma/blog-web" target="_blank" class="btn"><i class="fa-brands fa-github" ></i> View More</a>
-          </div>
-          <div class="card card-3">
-            <div class="card-img">
-              <img src="assets/img/weather-app.png" alt="" />
-            </div>
-            <h3>Weather App</h3>
-            <p>The WeatherApp is a user-friendly application that provides real-time weather updates and forecasts, ensuring you stay prepared for any conditions.</p>
-            <a href="https://github.com/7rajnishsharma/WeatherApp" class="btn"target="_blank"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-          <div class="card card-4">
-            <div class="card-img">
-              <img src="assets/img/meet.png" alt="" />
-            </div>
-            <h3>Team Chat</h3>
-            <p>This website offers video chat, voice chat, chatbox, and screen sharing via WebRTC, enabling real-time browser-based communication and collaboration.</p>
-            <a href="https://github.com/7rajnishsharma/TeamChat" class="btn"target="_blank"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-          <div class="card card-5">
-            <div class="card-img">
-              <img src="assets/img/text-analyser.png" alt="" />
-            </div>
-            <h3>Text Analyzer</h3>
-            <p>This React.js website provides essential text manipulation tools, including uppercase/lowercase conversion, email and phone number extraction, space removal, link extraction, and more.</p>
-            <a
-              href="https://7rajnishsharma.github.io/TextAnalyzer/" target="_blank"class="btn"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-          <div class="card card-5">
-            <div class="card-img">
-              <img src="assets/img/HireDream.png" alt="" />
-            </div>
-            <h3>HireDream</h3>
-            <p>HireDream improves multinational hiring with innovative features, empowering managers and HR professionals to streamline recruitment efficiently.</p>
-            <a
-              href="https://7rajnishsharma.github.io/HireDream/" target="_blank"class="btn"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-          <div class="card card-5">
-            <div class="card-img">
-              <img src="assets/img/wanderfunk.png" alt="" />
-            </div>
-            <h3>Wanderfunk</h3>
-            <p>WanderFunk Travel is a web application built with React.js, using React Router to provide an immersive platform for travelers.</p>
-            <a
-              href="https://wanderfunk.netlify.app/" target="_blank"class="btn"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-          <div class="card card-5">
-            <div class="card-img">
-              <img src="assets/img/organica.png" alt="" />
-            </div>
-            <h3>Organica</h3>
-            <p>Organica connects farmers and consumers to provide fresh, healthy food and promote sustainable farming practices.</p>
-            <a
-              href="https://7rajnishsharma.github.io/organica/" target="_blank"class="btn"><i class="fa-brands fa-github" target="_blank"></i> View More</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr />
-    <!--=====================================================-->
-
-    <!--==================+=Contact section=+=================-->
-    <section class="contact" id="contact">
-      <div class="contact-container">
-        <div class="contact-1 box">
-          <h2>Get In Touch</h2>
-          <p>
-            <span class="highlight">Thank you for visiting!</span> Let's connect and discuss potential projects with my expertise and skills, I can contribute to achieving remarkable results. I'm excited to explore the possibilities together.
-          </p>
-          <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
-
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/rjnish/" target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://github.com/7rajnishsharma" target="_blank"
-              ><i class="fa-brands fa-github" target="_blank"></i
-            ></a>
-            <a href="https://www.instagram.com/7rajnishsharma/" target="_blank"
-              ><i class="fa-brands fa-instagram" target="_blank"></i
-            ></a>
-            <a href="mailto:kumar.rajnish1april@gmail.com"
-              ><i class="fa-regular fa-envelope" target="_blank"></i
-            ></a>
-          </div>
-          <a href="https://drive.google.com/drive/folders/15D9Evpg6Dvub2Y7uHD0AEPVrVCrEUx9W?usp=drive_link" class="btn" target="_blank">View Resume</a>
-        </div>
-        <div class="contact-2 box">
-          <img src="assets/img/contact.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <!--=====================================================-->
-
-    <!--=====================+=Footer=+======================-->
-    
-    <footer>
-      <p>Created by <span>Rajnish Kumar Sharma</span> | &#169; All rights reserved.</p>
-    </footer>
-
-    <!--=====================================================-->
-    <!-- typing animation -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- Script -->
-    <script src="assets/script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
