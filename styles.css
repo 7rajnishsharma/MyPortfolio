@@ -333,6 +333,7 @@ header {
 .services-box img {
   height: 10rem;
   filter: drop-shadow(0px 20px 35px rgba(221, 255, 0, 0.2));
+  margin: auto;
 }
 
 .services-box h2 {
