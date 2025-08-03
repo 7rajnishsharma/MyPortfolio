@@ -93,8 +93,10 @@ section {
   font-size: 2.2rem;
   padding-bottom: 2rem;
   line-height: 1.1;
-  color: #e5e5e5;
+  color: #7a7a7a;
   margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin: auto;
 }
 
 
@@ -253,7 +255,7 @@ header {
   color: #e5e5e5;
 }
 
-.header-content .content h2 {
+.header-content .content h1 {
   font-size: 3.9rem;
   margin-bottom: 2rem;
   font-weight: 800;
@@ -306,6 +308,7 @@ header {
   max-width: 95%; 
   max-height: 95%;
   object-fit: cover; 
+  border-radius: 50%;
 }
 
 
@@ -323,7 +326,7 @@ header {
 .services-box {
   flex: 1 1 30rem;
   padding: 3rem 2rem 4rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .services-box-2 {
@@ -336,7 +339,7 @@ header {
   margin: auto;
 }
 
-.services-box h2 {
+.services-box h3 {
   font-size: 2.4rem;
   margin-bottom: 0.5rem;
   color: #cccccc;
@@ -474,8 +477,11 @@ header {
 }
 
 .contact-box .contact-des{
-  font-size: 2.2rem;
+  max-width: 650px;
+  margin: auto;
+  font-size: 2rem;
   color: #7a7a7a;
+  line-height: normal;
 }
 
 .contact-box .mail {
